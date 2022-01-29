@@ -1,0 +1,82 @@
+header img {
+    float: left;
+    margin: 10px;
+    max-height:65px;
+}
+body {
+    max-width: 100%;
+    background-color: rgb(50, 50, 50);
+    margin: 0;
+    padding: 200;
+    text-align: center;
+
+}
+header {
+        background-color: rgb(30, 30, 30);
+        height: 80px;
+    }
+h1 {
+    /* background-color: rgb(30, 30, 30); */
+    color: white;
+    margin: 0%;
+    text-align: center;
+    position: relative; 
+    left:-20px;
+}
+nav ul li{
+    display: inline-block;
+    /* margin: 10px; */
+    margin-left: 20px;
+    margin-top: 0px;
+    position: relative; 
+    left:-20px;
+}
+.wonky{
+    /* position: relative; */
+    margin-left:40px;
+}
+main ul li{
+    list-style: none;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    /* cursor: not-allowed; */
+    cursor: pointer;
+}
+nav ul{
+    margin: 10px;
+}
+/* nav li a:hover{
+    color: cornflowerblue;
+    margin: 100%;
+} */
+main {
+    color: rgb(220, 220, 220);
+    margin: 50px;
+}
+main ul.Minor li {
+    display: inline-block;
+    margin: 10px;
+}
+footer{
+    color: white;
+    position: absolute;
+    margin-left: 2%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 20px;
+}
+.Minor {
+    box-sizing: border-box;
+    display: table;
+    clear: both;
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
