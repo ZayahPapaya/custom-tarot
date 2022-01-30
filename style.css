@@ -81,3 +81,36 @@ footer{
     padding-left: 15px;
     margin-bottom: 20px;
 }
+.btnMaj {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btnMaj:hover, .btnMaj:focus {
+    background-color: grey;
+}
+.dropdownMajor {
+    position: relative;
+    display: inline-block;
+}
+.btnMajcontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.btnMajcontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.btnMajcontent a:hover {
+    background-color: brown;
+}
+.show {display:block;}
