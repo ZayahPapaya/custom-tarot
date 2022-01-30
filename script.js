@@ -19,3 +19,7 @@
 //        }
 //    }
 //}
+
+let X = 'cat';
+let Y = 'dog';
+alert(X + Y);
