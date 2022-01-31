@@ -114,3 +114,9 @@ footer{
     background-color: brown;
 }
 .show {display:block;}
+.sale {
+    color: lightskyblue;
+    text-align: center;
+    margin-top: -12px;
+    margin-right: 40px;
+}

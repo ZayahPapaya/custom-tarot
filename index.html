@@ -9,7 +9,14 @@
     </head>
     <body>
         <header class="sticky">
-            <img alt="Logo" src="tarotlogo.png">
+            <div class="logobtn" onclick="logoClick()">
+                <img alt="Logo" src="tarotlogo.png">
+                <script>
+                    function logoClick() {
+                        window.alert('Illustrated by ' + author)
+                    }
+                </script>
+            </div>
             <h1>
                 How to Train your Tarot
             </h1>
@@ -20,6 +27,9 @@
                     <li><a href="/">History</a></li>
                 </ul>
             </nav>
+            <div class="sale">
+                <script>document.write( SaleStatus );</script>
+            </div>
         </header>
 <!--    <div class ="dropdownMajor">
             <button onclick="myFunction()" class="btnMaj">Dropdown</button>
