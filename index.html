@@ -11,13 +11,13 @@
         <header class="sticky">
             <div class="logobtn" onclick="logoClick()">
                 <img alt="Logo" src="tarotlogo.png">
-                <script>
+                <!-- <script>
                     function logoClick() {
                         window.alert('Illustrated by ' + author)
                     }
-                </script>
+                </script> -->
             </div>
-            <h1>
+            <h1 onclick="mathHard()">
                 How to Train your Tarot
             </h1>
             <nav>
@@ -28,7 +28,7 @@
                 </ul>
             </nav>
             <div class="sale">
-                <script>document.write( SaleStatus );</script>
+                <script>document.write(saleDay());</script>
             </div>
         </header>
         <main class="content">

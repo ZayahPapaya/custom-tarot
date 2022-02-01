@@ -6,6 +6,7 @@
 //document.write(message);
 let author; 
 let coinflip = Math.floor(Math.random() * 3);
+let SaleStatus;
 console.log(coinflip);
 if(coinflip == 1){
     author = 'Aiden';
@@ -17,9 +18,31 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const d = new Date();
 let day = days[d.getDay()];
 console.log( day )
-let SaleStatus;
-if(day == 'Sunday'){
+function saleDay() {
+  if(day == 'Sunday'){
     SaleStatus = 'Sunday Sale!';
   } else{
     SaleStatus = ' ';
   }
+  return SaleStatus;
+}
+
+  function logoClick() {
+    window.alert('Illustrated by ' + author)
+}
+// Script below for Lab 07 but does not make sense in the context of my webpage
+function mathHard() {
+  let banana = prompt('What is 2 + 2?')
+  let monke;
+
+  if(banana == '4' || banana.toLowerCase() === 'four' || banana == '22' || banana.toLowerCase() === 'fish') {
+    monke = 'Correct!';
+  } else {
+    confirm('Not correct.');
+    mathHard();
+   // monke = 'Not correct!';
+  }
+  confirm( monke );
+  return monke;
+}
+
